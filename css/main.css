@@ -1,0 +1,92 @@
+
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px dotted #dbccb5;
+    margin: 1em 0;
+    padding: 0;
+   
+}
+
+header {
+	position: relative;
+	height: 750px;
+}
+
+nav {
+	margin: -500px 0 300px 0;
+	width:100%;
+}
+
+
+
+.logo {
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+}
+.logowrapper {
+	position: relative;
+	width: 100%;
+	text-align: center;
+	height: 741px;
+	margin-top: -100px;
+	z-index: -1;
+}
+.tagline {
+	font-family: 'arsenalitalic', helvetica, arial, sans-serif;
+	color:#7e7260;
+	text-align: center;
+	font-size: 1em;
+	
+}
+
+
+	
+
+
+/* ----------------------------- */
+/* ==animation */
+/* ----------------------------- */
+	
+
+.logobkgrnd {
+	-webkit-animation-name: spin;
+    -webkit-animation-duration: 150000ms;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+    -moz-animation-name: spin;
+    -moz-animation-duration: 150000ms;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-timing-function: linear;
+    -ms-animation-name: spin;
+    -ms-animation-duration: 150000ms;
+    -ms-animation-iteration-count: infinite;
+    -ms-animation-timing-function: linear;
+    -o-transition: rotate(3600deg);
+}
+@-moz-keyframes spin {
+    from { -moz-transform: rotate(0deg); }
+    to { -moz-transform: rotate(360deg); }
+}
+@-webkit-keyframes spin {
+    from { -webkit-transform: rotate(0deg); }
+    to { -webkit-transform: rotate(360deg); }
+}
+@keyframes spin {
+    from {transform:rotate(0deg);}
+    to {transform:rotate(360deg);}
+}
+
+
+
+
+
+
+
+
+
+
